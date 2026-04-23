@@ -1,0 +1,60 @@
+# Environment
+venv/
+env/
+.venv
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+*.so
+.coverage
+.pytest_cache/
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.iml
+
+# Data (large files)
+data/raw/
+data/processed/
+*.csv
+*.parquet
+*.feather
+
+# Models (large files)
+models/*.pkl
+models/*.pt
+models/*.pth
+models/*.h5
+
+# Results & Logs
+results/
+logs/
+*.log
+*.out
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+.jupyter/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.temp
+.cache/
