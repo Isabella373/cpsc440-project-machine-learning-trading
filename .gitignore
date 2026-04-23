@@ -29,7 +29,6 @@ htmlcov/
 # Data (large files)
 data/raw/
 data/processed/
-*.csv
 *.parquet
 *.feather
 
@@ -40,7 +39,6 @@ models/*.pth
 models/*.h5
 
 # Results & Logs
-results/
 logs/
 *.log
 *.out

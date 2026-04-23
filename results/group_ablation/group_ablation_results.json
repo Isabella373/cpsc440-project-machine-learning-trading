@@ -1,0 +1,92 @@
+[
+  {
+    "name": "A: BASELINE (all 63 feats)",
+    "n_features": 63,
+    "avg_imp": 14.500113803495417,
+    "avg_up_imp": 17.164610263793495,
+    "avg_dn_imp": 11.835617343197336,
+    "avg_up_nll": 1.441280682881673,
+    "avg_dn_nll": 1.3846847613652546,
+    "time_min": 0.2
+  },
+  {
+    "name": "B: DROP return_momentum",
+    "n_features": 58,
+    "avg_imp": 12.269291902721903,
+    "avg_up_imp": 15.881990819077663,
+    "avg_dn_imp": 8.65659298636614,
+    "avg_up_nll": 1.4543486833572388,
+    "avg_dn_nll": 1.3808937072753906,
+    "time_min": 0.2
+  },
+  {
+    "name": "C: DROP ma_trend",
+    "n_features": 59,
+    "avg_imp": 14.638628353848764,
+    "avg_up_imp": 17.807097293846187,
+    "avg_dn_imp": 11.470159413851341,
+    "avg_up_nll": 1.477352261543274,
+    "avg_dn_nll": 1.410765568415324,
+    "time_min": 0.2
+  },
+  {
+    "name": "D: DROP volatility_dist",
+    "n_features": 58,
+    "avg_imp": 11.460013748441861,
+    "avg_up_imp": 13.44323894888627,
+    "avg_dn_imp": 9.476788547997453,
+    "avg_up_nll": 1.5094725688298543,
+    "avg_dn_nll": 1.3931509256362915,
+    "time_min": 0.2
+  },
+  {
+    "name": "E: DROP volume_liquidity",
+    "n_features": 60,
+    "avg_imp": 11.866368184414354,
+    "avg_up_imp": 16.882646489837697,
+    "avg_dn_imp": 6.850089878991009,
+    "avg_up_nll": 1.4644970893859863,
+    "avg_dn_nll": 1.4511231184005737,
+    "time_min": 0.1
+  },
+  {
+    "name": "F: DROP macro_rates",
+    "n_features": 46,
+    "avg_imp": 11.188069269415124,
+    "avg_up_imp": 15.198652231596022,
+    "avg_dn_imp": 7.177486307234228,
+    "avg_up_nll": 1.5379016399383545,
+    "avg_dn_nll": 1.4510178565979004,
+    "time_min": 0.2
+  },
+  {
+    "name": "G: DROP calendar",
+    "n_features": 56,
+    "avg_imp": 14.5123784062499,
+    "avg_up_imp": 16.829893226800905,
+    "avg_dn_imp": 12.194863585698895,
+    "avg_up_nll": 1.4404308795928955,
+    "avg_dn_nll": 1.3663934866587322,
+    "time_min": 0.2
+  },
+  {
+    "name": "H: DROP sector",
+    "n_features": 45,
+    "avg_imp": 0.24816696624800136,
+    "avg_up_imp": 6.716012701370399,
+    "avg_dn_imp": -6.219678768874396,
+    "avg_up_nll": 1.7255616585413616,
+    "avg_dn_nll": 1.8756941159566243,
+    "time_min": 0.5
+  },
+  {
+    "name": "I: DROP redundant (6 cols)",
+    "n_features": 57,
+    "avg_imp": 11.501628488953259,
+    "avg_up_imp": 12.765878809093126,
+    "avg_dn_imp": 10.237378168813391,
+    "avg_up_nll": 1.5234602292378743,
+    "avg_dn_nll": 1.4113221168518066,
+    "time_min": 0.2
+  }
+]
